@@ -42,8 +42,8 @@
 
                 var self = {}; // new Function();
                 self.selector = selector;
-                self.element = document.querySelector(self.selector);
-                self.nodes = document.querySelectorAll(self.selector);
+                self.element = document.querySelector(self.selector);    // il 1°
+                self.nodes = document.querySelectorAll(self.selector);   // tutti
 
                 self.html = function () {
                     return self.element;
